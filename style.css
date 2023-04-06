@@ -1,0 +1,41 @@
+body {
+    background-color: black;
+    color: white;
+  }
+  
+  h1 {
+    font-family: "Bodoni", serif;
+  }
+  
+  #gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .img-container {
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px #ccc;
+    width: 300px;
+  }
+  
+  .img-container:hover {
+    box-shadow: 0px 0px 10px #aaa;
+  }
+  
+  .img-container img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .likes {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    font-size: 16px;
+    color: #888;
+  }
+  
